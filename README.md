@@ -32,5 +32,10 @@ relevancy scores determines the search results
             /employees/_doc/332 - here _doc is the type
         2. we can get rid of type since version 7
             /employees/332 is valid from version 7
+        3. we can use discover tab in Kibana to see all the defined indexes
   3. settings - index settings such as shards, replicas etc.
+  4. Basic query
+        1. GET business/building/_search - endpoint to search the index. Not only gives the documents of that index, it also gives out took, shards/successful, hits            objects hits array which contains our actual documents
+        2. From version 7 business/_search will be valid
+ 
  
