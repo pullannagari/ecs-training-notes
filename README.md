@@ -28,9 +28,9 @@ relevancy scores determines the search results
 - Components of an index:
   1. aliases - defines the alternate names for the index
   2. mappings - automatically maps the type of the fields
-     index can support only ONE type since version 6
+     a. index can support only ONE type since version 6
      /employees/_doc/332 - here _doc is the type
-     we can get rid of type since version 7
+     b. we can get rid of type since version 7
      /employees/332 is valid from version 7
   3. settings - index settings such as shards, replicas etc.
  
